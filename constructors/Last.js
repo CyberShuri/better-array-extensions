@@ -6,7 +6,7 @@ Array.prototype.last = function (number) {
 
         var array = [];
 
-        for (i = this.length - number; i > number; i--) {
+        for (i = this.length - number; i < this.length; i++) {
             array.push(this[i]);
         }
 
