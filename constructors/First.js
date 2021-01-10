@@ -1,8 +1,8 @@
 Array.prototype.first = function (number) {
     try {
-        if (!number) return this[0];
+        if (number === undefined || number === null) return this[0];
         if (number >= this.length) return this;
-        if (number <= 0) throw new Error('Value cannot be lower or equal to 0.');
+        if (number <= 1) throw new Error('Value cannot be lower or equal to 0.');
 
         var array = [];
 
