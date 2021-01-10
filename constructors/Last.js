@@ -1,12 +1,12 @@
-Array.prototype.first = function (number) {
+Array.prototype.last = function (number) {
     try {
-        if (number === undefined || number === null) return this[0];
+        if (number === undefined || number === null) return this[this.length - 1];
         if (number >= this.length) return this;
         if (number <= 0) throw new Error('Value cannot be lower or equal to 0.');
 
         var array = [];
 
-        for (i = 0; i < number; i++) {
+        for (i = this.length - 1; i > number; i--) {
             array.push(this[i]);
         }
 
