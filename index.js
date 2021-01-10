@@ -1,3 +1,3 @@
 module.exports = {
-    random: require('./constructors/Random')
+    random: require('./constructors/random')
 }
