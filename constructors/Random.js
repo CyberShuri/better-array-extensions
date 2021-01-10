@@ -1,6 +1,6 @@
-const { LengthError } = require('./errors/Errors')
+const { LengthError } = require('../errors/Errors')
 
-const random = Array.prototype.random = () => {
+Array.prototype.random = function () {
     try {
         if (this.length === 0) {
             throw new LengthError('Array needs to have one or more elements.');
@@ -16,5 +16,3 @@ const random = Array.prototype.random = () => {
         console.error(error)
     }
 };
-
-module.exports = random;

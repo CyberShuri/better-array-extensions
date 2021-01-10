@@ -1,3 +1,3 @@
 module.exports = {
-    LengthError: require('/structures/LengthError')
+    LengthError: require('../errors/structures/LengthError')
 }
