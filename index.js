@@ -1,3 +1,3 @@
 module.exports = {
-    Rectangle: require('./geometry.js')
+    random: require('./constructors/Random')
 }
