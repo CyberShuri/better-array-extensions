@@ -3,5 +3,6 @@ module.exports = {
     compact: require('./constructors/Compact'),
     first: require('./constructors/First'),
     last: require('./constructors/Last'),
-    isEmpty: require('./constructors/isEmpty')
+    isEmpty: require('./constructors/isEmpty'),
+    count: require('./constructors/Count')
 }
