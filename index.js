@@ -4,5 +4,6 @@ module.exports = {
     first: require('./constructors/First'),
     last: require('./constructors/Last'),
     isEmpty: require('./constructors/isEmpty'),
-    count: require('./constructors/Count')
+    count: require('./constructors/Count'),
+    minus: require('./constructors/Minus')
 }
