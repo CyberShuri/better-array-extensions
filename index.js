@@ -6,6 +6,5 @@ module.exports = {
     isEmpty: require('./constructors/isEmpty'),
     count: require('./constructors/Count'),
     minus: require('./constructors/Minus'),
-    plus: require('./constructors/Plus'),
     sweep: require('./constructors/Sweep')
 }
